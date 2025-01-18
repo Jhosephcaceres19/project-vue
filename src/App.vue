@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import ReactivityFile from './components/reactivity-file.vue'
-import SingleFile from './components/single-file.vue'
+import ConditionalTest from './components/conditional-test.vue'
+// import ReactivityFile from './components/reactivity-file.vue'
+// import SingleFile from './components/single-file.vue'
 </script>
 
 <template>
-  <SingleFile />
-  <ReactivityFile />
+  <!-- <SingleFile />
+  <ReactivityFile /> -->
+  <ConditionalTest />
 </template>
 
 <style scoped></style>
